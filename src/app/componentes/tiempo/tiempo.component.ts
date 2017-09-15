@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CronosComponent } from '../cronos/cronos.component';
-import { CuentaAtrasComponent } from '../cuenta-atras/cuenta-atras.component';
+import { CronosComponent } from './cronos/cronos.component';
+import { CuentaAtrasComponent } from './cuenta-atras/cuenta-atras.component';
 import { NgModule, ViewChild } from '@angular/core';
 
 @Component({
