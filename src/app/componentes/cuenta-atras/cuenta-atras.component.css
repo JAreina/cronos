@@ -1,0 +1,11 @@
+.cuentaatras{
+    color:#E4E4E4;
+	margin-top:10px;
+	font-family: 'Special Elite', cursive;
+}
+
+@media (min-width:360px){
+    .cuentaatras{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,14 @@
+
+
+    <div class="col-md-12  col-xs-12 cuentaatras"
+     >
+    <div>{{horas}}:{{ minutos }}:{{ segundos | number: '2.0' }}:{{milisegundos}} </div>
+    </div>
+  
+      <button *ngIf="milisegundos ==00" (click)="empezar()"
+        class="btn btn-danger">
+        {{ buttonLabel }}
+      </button>
+
+      
+    
