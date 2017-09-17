@@ -5,7 +5,7 @@
     <div>{{horas |number:'2.0'}}:{{ minutos |number: '2.0' }}:{{ segundos | number: '2.0' }}:{{milisegundos |number:'2.0'}} </div>
     </div>
   
-      <button *ngIf="milisegundos ==0" (click)="empezar()"
+      <button *ngIf="segundos ==0" (click)="empezar()"
         class="btn btn-danger">
         {{ buttonLabel }}
       </button>
