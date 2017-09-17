@@ -17,7 +17,7 @@
   </div>
 
        <div class="botonPadre"
-       *ngIf="cronos.segundosCRONO ==cronos.limiteCRONO && cuentaAtras.milisegundos ==00" >
+       *ngIf="cronos.segundosCRONO ==cronos.limiteCRONO && cuentaAtras.minutos ==0" >
        <button (click)="cronos.empezarCRONO();cuentaAtras.empezar()"
        class="btn btn-danger">
            {{botonPadre}}

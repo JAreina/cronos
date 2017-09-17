@@ -14,7 +14,7 @@ export class CuentaAtrasComponent implements OnInit {
   horas:any;
   minutos: any;
   segundos: any;
-  inicioSegundos:any="05";
+  inicioSegundos:any=5;
   milisegundos:any;
   isPaused: boolean;
   buttonLabel: string;
@@ -33,8 +33,8 @@ export class CuentaAtrasComponent implements OnInit {
 
   resetTimer(): void {
     this.isPaused = true;
-    this.horas="00";
-    this.minutos = "00";
+    this.horas=0;
+    this.minutos = 0;
     this.segundos = this.inicioSegundos;
     this.milisegundos=99;
     this.buttonLabel = 'Botón hijo cuenta atrás';
@@ -52,7 +52,7 @@ export class CuentaAtrasComponent implements OnInit {
         }
         if(this.segundos ==0){
           clearInterval(this.control);
-          this.milisegundos="00";
+          this.milisegundos="0";
           
         }
       }
